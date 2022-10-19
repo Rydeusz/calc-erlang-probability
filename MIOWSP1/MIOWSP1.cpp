@@ -120,6 +120,7 @@ int main() {
 	int volume = 0;
 	int numberOfClasses = 0;
 	
+	std::cout << "elo:";
 	std::cout << "podaj pojemnosc: " << std::endl;
 	std::cin >> volume;
 	std::cout << std::endl;
@@ -128,7 +129,7 @@ int main() {
 	std::cout << "Podaj " << numberOfClasses << " wartosci t: " << std::endl;
 	Calculate rzecz(volume, numberOfClasses);
 	rzecz.Addts();
-	std::cout << std::endl;
+	std::cout << std::endl; 
 	std::cout << "Podaj " << numberOfClasses << " wartosci a: " << std::endl;
 	rzecz.AddAs();
 	rzecz.CalcXs();
